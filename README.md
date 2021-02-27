@@ -1,27 +1,48 @@
-# Frontend
+# YouTube Training Angular Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+Source code from Live Streaming "เขียนสดๆ กดแล้ว ERROR" 
 
-## Development server
+Live every Saturday 10:00 AM ICT 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+at my YouTube channel https://www.youtube.com/c/NatthaponPinyo
 
-## Code scaffolding
+# Episodes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## EP 1 (https://youtu.be/cUivgstPP6U)
+- Setup IDE
+- Create Spring Boot Project
+- Run Spring Boot Project
+- Verify Start Result
+- Health Check
+- REST Controller
+- ERROR Adviser
+- Exception Handler
 
-## Build
+## EP 2 (https://youtu.be/vcHEEh-WG9E)
+- Pending Topic (Upload File)
+- Database (PostgreSQL)
+- Security
+- Unit Test
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## EP 3 (https://youtu.be/8pqm9CCmWmQ)
+- Database (Foreign Key)
+- JWT
 
-## Running unit tests
+## EP 4 (https://youtu.be/wuMX7haEnac)
+- Email
+- Job Scheudler
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## EP 5 (https://youtu.be/6l5FtUBPqZk)
+- Websocket
+- Angular 11 (Frontend)
 
-## Running end-to-end tests
+## EP 6 (6 March 2021)
+- Bootstrap
+- Angular Material  
+- Security for Frontend
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## EP 7 (13 March 2021)
+- Kafka
+- Redis
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Stay tuned for more episodes...
