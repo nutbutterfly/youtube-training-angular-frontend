@@ -1,5 +1,9 @@
-<form [formGroup]="loginFormGroup" class="d-grid gap-2 col-6 mx-auto" (ngSubmit)="onSubmit()">
-    <h2 class="text-center">Login</h2>
+<form [formGroup]="registerFormGroup" class="d-grid gap-2 col-6 mx-auto" (ngSubmit)="onSubmit()">
+    <h2 class="text-center">Register</h2>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" formControlName="name" placeholder="Name">
+    </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
         <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
@@ -9,6 +13,6 @@
         <input type="password" class="form-control" formControlName="password" placeholder="Password">
     </div>
     <div class="mb-3">
-        <button type="submit" class="btn btn-primary mb-3" [disabled]="loginFormGroup.invalid">Submit</button>
+        <button type="submit" class="btn btn-primary mb-3" [disabled]="registerFormGroup.invalid">Submit</button>
     </div>
 </form>
