@@ -43,6 +43,10 @@ at my YouTube channel https://www.youtube.com/c/NatthaponPinyo
 
 ## EP 7 (13 March 2021)
 - Kafka
+
+## EP 8 (20 March 2021)
+- Angular Frontend (Activation Page)
+- Angular Frontend (i18n)
 - Redis
 
 # Stay tuned for more episodes...
