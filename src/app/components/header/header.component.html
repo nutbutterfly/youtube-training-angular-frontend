@@ -9,17 +9,30 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" [routerLink]="['/dashboard']"
-                        [routerLinkActive]="'active'">Dashboard</a>
+                        [routerLinkActive]="'active'">{{ 'header.menu.dashboard' | translate }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" [routerLink]="['/chat']" [routerLinkActive]="'active'">Chat</a>
+                    <a class="nav-link" [routerLink]="['/chat']" [routerLinkActive]="'active'">{{ 'header.menu.chat' |
+                        translate }}</a>
                 </li>
             </ul>
             <ul class="navbar-nav mb-2 mb-lg-0 d-flex">
+
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" (click)="doLogout()">Logout</a>
+                    <a class="nav-link" aria-current="page" (click)="swithToThai()">TH</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" (click)="swithToEnglish()">EN</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" (click)="doLogout()">{{ 'header.menu.logout' | translate
+                        }}</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<div>GG: {{ 'test.message' | translate }}</div>

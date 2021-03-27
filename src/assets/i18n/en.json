@@ -1,0 +1,18 @@
+{
+    "test.message": "Test Message",
+    "header": {
+        "menu": {
+            "dashboard": "Dashboard",
+            "chat": "Chat",
+            "logout": "Logout"
+        }
+    },
+    "user": {
+        "activate": {
+            "already": "Your account is already activated",
+            "token": {
+                "expire": "Your token is expired."
+            }
+        }
+    }
+}
